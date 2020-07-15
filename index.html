@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Special Design</title>
+</head>
+<body>
+        <!-- Menu Display --------------------------------------------->
+    <div class="menu-cont">
+        <i class="fas fa-times fa-2x"></i>
+        <ul class="links">
+            <li data-text="Home"><a class="active" href="#" data-section=".landing-page">Home</a></li>
+            <li data-text="About Us"><a href="#" data-section=".about-us">About</a></li>
+            <li data-text="Skills"><a href="#" data-section=".skills">Skills</a></li>
+            <li data-text="Gallery"><a href="#" data-section=".gallery">Gallery</a></li>
+            <li data-text="Timeline"><a href="#" data-section=".timeline">Timeline</a></li>
+            <li data-text="Services"><a href="#" data-section=".services">Services</a></li>
+            <li data-text="Testimonials"><a href="#" data-section=".testimonial">Testimonials</a></li>
+            <li data-text="Contact"><a href="#" data-section=".contact-us">Contact</a></li>
+        </ul>
+    </div>
+    <!-- Setting box --------------------------------------------->
+    <div class="setting-box">
+        <div class="gear">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="seting-container">
+            <div class="option-box">
+                <h4>Switch Color</h4>
+                <ul class="colors-list">
+                    <li class='active' data-color='#FFC107'></li>
+                    <li data-color='#f44336'></li>
+                    <li data-color='#03a9f4'></li>
+                    <li data-color='#8bc34a'></li>
+                    <li data-color='#9e9e9e'></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Background</h4>
+                <div class="random-bg">
+                    <span class="yes active" data-bg="yes">Yes</span>
+                    <span class="no" data-bg="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Navigation Bullets</h4>
+                <div class="nav-option">
+                    <span class="yes active" data-display="show">Show</span>
+                    <span class="no" data-display="hide">Hide</span>
+                </div>
+            </div>
+            <div class="reset-btn">Reset Options</div>
+        </div>
+    </div>
+    <!-- Nav bullets --------------------------------------------->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".landing-page">
+            <div class="tool-tip">Home</div>
+        </div>
+        <div class="bullet" data-section=".about-us">
+            <div class="tool-tip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tool-tip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tool-tip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tool-tip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".services">
+            <div class="tool-tip">Services</div>
+        </div>
+        <div class="bullet" data-section=".testimonial">
+            <div class="tool-tip">Testimonials</div>
+        </div>
+        <div class="bullet" data-section=".contact-us">
+            <div class="tool-tip">Contact Us</div>
+        </div>
+    </div>
+    <!-- landing page --------------------------------------------->
+    <div class="landing-page">
+        <div class="overlay"></div>
+            <div class="container">
+            <div class="header">
+                <i class="fas fa-bars fa-2x"></i>
+                <div class="logo">
+                    <img src="imgs/logo.png" alt="">
+                    <span>Special Design</span>
+                </div>
+            </div>
+            <div class="introduction-text">
+                <h1>We Are <span>Creative</span> Agency</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, Nam modi cupiditate voluptatem, facilis sapiente hic.</p>
+            </div>
+        </div>
+    </div>
+    <!-- about us --------------------------------------------->
+    <div class="container">
+        <div class="about-us">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic facere iure quasi. Quia, voluptatibus voluptatum incidunt tenetur ipsa alias error repellendus! Quae amet ipsam recusandae rerum autem laboriosam perspiciatis temporibus nesciunt tempora. Labore, quos?</p>
+            </div>
+            <div class="about-img">
+                <img src="imgs/about/FFC107.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- about us --------------------------------------------->
+    <div class="skills">
+        <div class="skill-img">
+            <img src="imgs/skill-img.jpg" alt="">
+        </div>
+        <div class="skill-data">
+            <h1>our skills</h1>
+            <ul class="skills-list">
+                <li>Design</li>
+                <li>Marketing</li>
+                <li>Mobile Apps</li>
+                <li>Development</li>
+                <li>Campaigns</li>
+            </ul>
+            <ul class="skills-progress">
+                <li><span data-width="98%"></span></li>
+                <li><span data-width="85%"></span></li>
+                <li><span data-width="90%"></span></li>
+                <li><span data-width="75%"></span></li>
+                <li><span data-width="95%"></span></li>
+            </ul>
+        </div>
+    </div>
+    <!-- our gallery --------------------------------------------->
+    <div class="gallery">
+        <div class="container">
+            <h1>our gallery</h1>
+            <div class="gallery-box">
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-1.jpg" alt="">
+                </div>
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-2.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-3.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-4.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-5.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-6.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-7.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-8.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-9.jpg" alt="">
+                </div>   
+                <div class="img-box">
+                    <i class="fas fa-search"></i>
+                    <div class="img-over"></div>
+                    <img src="imgs/gallery/glry-10.jpg" alt="">
+                </div>       
+            </div>
+        </div>
+    </div>
+    <!-- Timeline --------------------------------------------->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Timeline Event</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestiae laborum nostrum rem soluta et. Tenetur, consequuntur odit!</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Timeline Event</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet adipisci harum fugit doloremque veritatis sint nesciunt, molestiae nihil?</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="year">2019</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Timeline Event</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestiae laborum nostrum rem soluta et. Tenetur, consequuntur odit!</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Timeline Event</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet adipisci harum fugit doloremque veritatis sint nesciunt, molestiae nihil?</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- services --------------------------------------------->
+    <div class="services">
+        <h1>Our Services</h1>
+        <div class="container">
+            <div class="serv-box">
+                <div><img src="imgs/services/fet-1.png" alt=""></div>
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, excepturi.</p>
+            </div>
+            <div class="serv-box">
+                <div><img src="imgs/services/fet-2.png" alt=""></div>
+                <h4>Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, excepturi.</p>
+            </div>
+            <div class="serv-box">
+                <div><img src="imgs/services/fet-3.png" alt=""></div>
+                <h4>Marketing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, excepturi.</p>
+            </div>
+            <div class="serv-box">
+                <div><img src="imgs/services/fet-4.png" alt=""></div>
+                <h4>Mobile Application</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, excepturi.</p>
+            </div>
+            <div class="serv-box">
+                <div><img src="imgs/services/fet-5.png" alt=""></div>
+                <h4>Websites</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, excepturi.</p>
+            </div>
+            <div class="serv-box">
+                <div><img src="imgs/services/fet-6.png" alt=""></div>
+                <h4>Advertising</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, excepturi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="clear-fix"></div>
+    <!-- Testimonials --------------------------------------------->
+    <div class="testimonial">
+        <h1>Testimonials</h1>
+        <div class="testi-container">
+            <div class="testi-nav">
+                <span class="nav-button prev"><i class="fas fa-angle-left"></i></span>
+                <span class="nav-button next"><i class="fas fa-angle-right"></i></span>
+            </div>
+            <div class="testi-box">
+                <div class="testi-img">
+                    <div class="person">
+                        <img src="imgs/Testimonial/person/tmc (1).jpg" alt="">
+                    </div>
+                    <div class="person-bg"></div>
+                </div>
+                <div class="testi-text">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, vitae non numquam autem rerum soluta id et dolore animi nostrum aperiam est illum qui accusantium dolorem amet sed! Distinctio, eum."</p>
+                    <p class="person-name">UI/UX Designer <span>John David</span></p>
+                </div>
+            </div>
+            <div class="testi-box">
+                <div class="testi-img">
+                    <div class="person">
+                        <img src="imgs/Testimonial/person/tmc (3).jpg" alt="">
+                    </div>
+                    <div class="person-bg"></div>
+                </div>
+                <div class="testi-text">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est at iure animi ea aperiam eveniet perferendis voluptatum libero optio. Ratione cum pariatur excepturi quos in. Ipsa harum a alias molestiae?."</p>
+                    <p class="person-name">Front-End Developer <span>Mike John</span></p>
+                </div>
+            </div>
+            <div class="testi-box">
+                <div class="testi-img">
+                    <div class="person">
+                        <img src="imgs/Testimonial/person/tmc (4).png" alt="">
+                    </div>
+                    <div class="person-bg"></div>
+                </div>
+                <div class="testi-text">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est at iure animi ea aperiam eveniet perferendis voluptatum libero optio. Ratione cum pariatur excepturi quos in. Ipsa harum a alias molestiae?."</p>
+                    <p class="person-name">Graphic Designer <span>Ronald Joe</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact us --------------------------------------------->
+    <div class="contact-us">
+        <div class="cont-overlay"></div>
+        <div class="container">
+            <h1>Contact us</h1>
+            <form action="">
+                <div class="form-left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Mail" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="form-right">
+                    <textarea placeholder="Your Message" name="message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+            <div class="clear-fix"></div>
+            <div class="social">
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                    <li><i class="fab fa-pinterest-p"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear-fix"></div>
+    <div class="footer">
+        Designed & coded by Me - All rights reserved
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
