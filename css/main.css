@@ -600,7 +600,7 @@ body {
 .timeline{
     padding: 50px 0;
     background-color: #eee;
-    background-image: url('/imgs/timeline.png');
+    background-image: url('../imgs/timeline.png');
     background-size: cover;
     background-blend-mode: luminosity;
 }
@@ -933,7 +933,7 @@ body {
     border-bottom: 2px solid var(--main-color);
 }
 .person-bg {
-    background-image: url('/imgs/Testimonial/FFC107.png');
+    background-image: url('../imgs/Testimonial/FFC107.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
